@@ -1,0 +1,75 @@
+######################################################################
+#SP+Lex-wch50 with certain chunk NP,PP,VP,and ADVP
+1.IOB1
+processed 47377 tokens with 23852 phrases; found: 23676 phrases; correct: 22117.
+accuracy:  96.70%; precision:  93.42%; recall:  92.73%; FB1:  93.07
+             ADJP: precision:  77.36%; recall:  71.00%; FB1:  74.05
+             ADVP: precision:  79.88%; recall:  77.94%; FB1:  78.90
+            CONJP: precision:  66.67%; recall:  66.67%; FB1:  66.67
+             INTJ: precision:  50.00%; recall:  50.00%; FB1:  50.00
+              LST: precision:   0.00%; recall:   0.00%; FB1:   0.00
+               NP: precision:  94.70%; recall:  93.69%; FB1:  94.19
+               PP: precision:  97.50%; recall:  96.28%; FB1:  96.88
+              PRT: precision:  63.92%; recall:  58.49%; FB1:  61.08
+             SBAR: precision:  76.33%; recall:  83.18%; FB1:  79.61
+               VP: precision:  92.53%; recall:  93.32%; FB1:  92.92
+
+#---------------------------------------------------------------------
+2.IOB2
+processed 47377 tokens with 23852 phrases; found: 24107 phrases; correct: 22212.
+accuracy:  95.19%; precision:  92.14%; recall:  93.12%; FB1:  92.63
+             ADJP: precision:  74.34%; recall:  70.78%; FB1:  72.51
+             ADVP: precision:  78.92%; recall:  79.10%; FB1:  79.01
+            CONJP: precision:  66.67%; recall:  66.67%; FB1:  66.67
+             INTJ: precision:  50.00%; recall:  50.00%; FB1:  50.00
+              LST: precision:   0.00%; recall:   0.00%; FB1:   0.00
+               NP: precision:  92.76%; recall:  94.28%; FB1:  93.52
+               PP: precision:  97.44%; recall:  96.47%; FB1:  96.95
+              PRT: precision:  62.26%; recall:  62.26%; FB1:  62.26
+             SBAR: precision:  75.90%; recall:  82.43%; FB1:  79.03
+               VP: precision:  91.87%; recall:  93.39%; FB1:  92.62
+               
+#---------------------------------------------------------------------
+3.IOE1
+processed 47377 tokens with 23852 phrases; found: 23644 phrases; correct: 22055.
+accuracy:  96.70%; precision:  93.28%; recall:  92.47%; FB1:  92.87
+             ADJP: precision:  77.50%; recall:  70.78%; FB1:  73.99
+             ADVP: precision:  79.76%; recall:  77.83%; FB1:  78.78
+            CONJP: precision:  66.67%; recall:  66.67%; FB1:  66.67
+             INTJ: precision:  50.00%; recall:  50.00%; FB1:  50.00
+              LST: precision:   0.00%; recall:   0.00%; FB1:   0.00
+               NP: precision:  94.42%; recall:  93.21%; FB1:  93.81
+               PP: precision:  97.64%; recall:  96.26%; FB1:  96.94
+              PRT: precision:  64.29%; recall:  59.43%; FB1:  61.76
+             SBAR: precision:  75.67%; recall:  84.30%; FB1:  79.75
+               VP: precision:  92.58%; recall:  93.17%; FB1:  92.87
+
+#---------------------------------------------------------------------
+4.IOE2
+processed 47377 tokens with 23852 phrases; found: 24098 phrases; correct: 22183.
+accuracy:  95.63%; precision:  92.05%; recall:  93.00%; FB1:  92.53
+             ADJP: precision:  72.40%; recall:  68.26%; FB1:  70.27
+             ADVP: precision:  79.88%; recall:  78.41%; FB1:  79.14
+            CONJP: precision:  55.56%; recall:  55.56%; FB1:  55.56
+             INTJ: precision:  50.00%; recall:  50.00%; FB1:  50.00
+              LST: precision:   0.00%; recall:   0.00%; FB1:   0.00
+               NP: precision:  92.86%; recall:  94.24%; FB1:  93.54
+               PP: precision:  97.40%; recall:  96.38%; FB1:  96.89
+              PRT: precision:  62.50%; recall:  61.32%; FB1:  61.90
+             SBAR: precision:  75.94%; recall:  83.18%; FB1:  79.39
+               VP: precision:  91.17%; recall:  93.30%; FB1:  92.22
+
+#---------------------------------------------------------------------
+5.O+C
+processed 47377 tokens with 34017 phrases; found: 33966 phrases; correct: 31999.
+accuracy:  93.41%; precision:  94.21%; recall:  94.07%; FB1:  94.14
+             ADJP: precision:  78.87%; recall:  73.08%; FB1:  75.86
+             ADVP: precision:  79.21%; recall:  77.93%; FB1:  78.57
+            CONJP: precision:  44.44%; recall:  47.06%; FB1:  45.71
+             INTJ: precision:  50.00%; recall:  50.00%; FB1:  50.00
+              LST: precision:   0.00%; recall:   0.00%; FB1:   0.00
+               NP: precision:  95.25%; recall:  95.19%; FB1:  95.22
+               PP: precision:  97.06%; recall:  95.96%; FB1:  96.50
+              PRT: precision:  61.11%; recall:  62.26%; FB1:  61.68
+             SBAR: precision:  75.17%; recall:  82.36%; FB1:  78.60
+               VP: precision:  94.61%; recall:  95.00%; FB1:  94.81
