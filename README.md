@@ -5,11 +5,17 @@ The original SS05 algorithm from Hong Shen and Anoop Sarkar used in the paper 'V
 
 We would like to thank professor Anoop Sarkar for his cooperation and providing the original Perl code and letting us to use and distribute it with our own. This helped a lot to understand their algorithm better.
 
+## Warning
+
+This code is unmaintained, outdated and contains serveral bugs (see bugtracker).
+
+This method is outperformed by 'Gut, Besser, Chunker – Selecting the best models for text chunking with voting' by Balázs Indig and István Endrédy
+For a more general and up-to-date implementation, which outperforms this method see [https://github.com/ppke-nlpg/gut-besser-chunker](https://github.com/ppke-nlpg/gut-besser-chunker)
 
 
 ## Reference
 
-If you use the tool, please cite the following paper:
+If you use this tool, please cite the following [paper](http://www.cs.sfu.ca/~anoop/papers/pdf/ai05.pdf) that were published at [Springer](http://link.springer.com/chapter/10.1007%2F11424918_40):
 
 ```
 @inproceedings{conf/ai/ShenS05,
